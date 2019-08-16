@@ -1,0 +1,72 @@
+ /// <summary>
+    /// bag of element with priority 
+    /// running time nlogn
+    /// ex
+    ///     used to schedual jobs
+    ///     dijsktra algorithm => find shortest path
+    ///     heap sort
+    /// naieve implementation
+    ///     used sorted array 
+    ///         insert => o(n) shift the next elements
+    ///         getmax => o(1) //  we can use binary search 
+    ///     used sorted double linked list
+    ///         insert => o(n) adjust the pointers for the whole list 
+    ///                         and also we cant get the right position to insert the element 
+    ///         getmax => o(1) last element
+    /// good implementation
+    ///     binary heap 
+    ///         max binary heap :
+    ///             is binary tree which value of any node is at least the values of it's cheldren  
+    ///			   ////////42////////
+    ///			   /////29///18//////
+					when e go up we increase in value
+					Binary tree must be complete that meant no gaps in the  left leaf // maen balance in other context 
+					=>>> space effcient cause we not need more that 1 array
+					advantage of complete binry tree
+						1- to grauntee log n
+						2- to grantuee it can impelemented in array
+							0on based
+							parent = i-1/2
+							leftchild =  2i +1
+							right child = 2i+2
+					Size is the max size of the heap not the capacity
+					Insert O(Tree height)
+						attach to most right leaf // the end of the array h[size]
+						siftUp
+					Extract max
+						take the root h[1]
+						move last leaf  to root position // last leaf means last leaf from  h[size]
+						check if wee need to siftDown 
+					Change piriorty  O(Tree height)
+						change the value
+						chceck old value and new value to decide swift up or siftDown
+					Remove(x)
+						change x pirority to max
+						siftup(x)
+						call ExtraxtMax()
+					Siftup
+						 private void SwiftUp(int i)
+						{					
+							if (i < 1) return; // base case
+							if (array[i] < array[Parent(i)])
+							{
+								Swap(i, Parent(i));
+							}
+							SwiftUp(Parent(i));
+						}
+					SiftDown(i)
+							maxIndex =i
+							maxIndex  = getMaxIndexOfChild(i)
+							if(i != maxIndex )
+							swap i, maxIndex
+							SiftDown(maxIndex)
+						maxIndex(i)
+							get max index form child or return teh same i
+			
+					
+
+						
+
+    ///				
+    ///             
+    /// </summary>

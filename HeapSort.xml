@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<heapsort>
+    is selection sort with a nother data structure
+    is used piroirty queue to work 
+    
+    it's advantage implementation to selection sort O(n^2) to (n logn)s    
+    d-th tree 
+    has height log base d for n
+    <advantage >
+      - can be to find largest k value insted of sort the hole array
+      - in place and dosnt need extra datastructure 
+      - O (nlogn)
+      - used insted of quick sort if quick sort has spical slow running time 
+    </advantage>
+  <DisAdvantage>
+    1-use additional storage that used in piriority Queue ==> solved by cnvert given array to heap [ConvertArrayIntoHeap]
+  </DisAdvantage>
+  <ConvertArrayIntoHeap>
+    <buildArray how="by going from down to the top" runningtime=" nlogn">
+        int midNode = (array.Length - 1) / 2;
+            for (int i = midNode; i >= 0; i--)
+            {
+                SwiftDown(i);
+            }
+    </buildArray>
+  </ConvertArrayIntoHeap>
+  <ConvertMaxHeapToMinHeap>
+    swap h[1] ,h[size]
+    size--
+    siftdown (1)
+    
+  </ConvertMaxHeapToMinHeap>
+</heapsort>

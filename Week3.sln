@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{06A4E0D6-225C-42B4-A5EB-3CB2EF118285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertArrayIntoHeap", "ConvertArrayIntoHeap\ConvertArrayIntoHeap.csproj", "{DB75FC0D-8975-4153-8711-AC9EF57B8D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProcessing", "ParallelProcessing\ParallelProcessing.csproj", "{DEFCDAE2-8AA6-43C1-B7D9-9C4B7FBA8A37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6461D27F-7785-4EB8-801A-436AABE1EB9E}"
+	ProjectSection(SolutionItems) = preProject
+		_c9371d52e542255e07157e2c33819ca8_Programming-Assignment-2.pdf = _c9371d52e542255e07157e2c33819ca8_Programming-Assignment-2.pdf
+		HeapSort.xml = HeapSort.xml
+		piriorty Queue.txt = piriorty Queue.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06A4E0D6-225C-42B4-A5EB-3CB2EF118285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A4E0D6-225C-42B4-A5EB-3CB2EF118285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A4E0D6-225C-42B4-A5EB-3CB2EF118285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A4E0D6-225C-42B4-A5EB-3CB2EF118285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB75FC0D-8975-4153-8711-AC9EF57B8D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB75FC0D-8975-4153-8711-AC9EF57B8D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB75FC0D-8975-4153-8711-AC9EF57B8D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB75FC0D-8975-4153-8711-AC9EF57B8D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFCDAE2-8AA6-43C1-B7D9-9C4B7FBA8A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFCDAE2-8AA6-43C1-B7D9-9C4B7FBA8A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFCDAE2-8AA6-43C1-B7D9-9C4B7FBA8A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFCDAE2-8AA6-43C1-B7D9-9C4B7FBA8A37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0C933A5-5472-4FEB-B0D3-8B0C23A741F5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mohamedmahlies.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PriorityQueue\\PriorityQueue.csproj
+		SccProjectName1 = PriorityQueue
+		SccLocalPath1 = PriorityQueue
+		SccProjectUniqueName2 = ConvertArrayIntoHeap\\ConvertArrayIntoHeap.csproj
+		SccProjectName2 = ConvertArrayIntoHeap
+		SccLocalPath2 = ConvertArrayIntoHeap
+		SccProjectUniqueName3 = ParallelProcessing\\ParallelProcessing.csproj
+		SccProjectName3 = ParallelProcessing
+		SccLocalPath3 = ParallelProcessing
+	EndGlobalSection
+EndGlobal
