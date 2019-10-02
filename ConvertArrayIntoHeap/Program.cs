@@ -74,7 +74,7 @@ namespace ConvertArrayIntoHeap
         }
 
         /// <summary>
-        ///  by get last leaf and put in the front of tree and call swiftDown
+        ///  by get last leaf and put in the root of tree and call swiftDown
         /// </summary>
         /// <returns></returns>
         public int ExtractMax()
@@ -82,6 +82,7 @@ namespace ConvertArrayIntoHeap
             if (size != 0)
             {
                 int max = array[0];
+                // swap root with last leaf
                 array[0] = array[size - 1];
                 SwiftDown(0);
                 size--;
@@ -151,8 +152,8 @@ namespace ConvertArrayIntoHeap
         /// <param name="i"></param>s
         /// <returns></returns>
         private int Parent(int i)
-        {
-            return (i - 1) / 0;
+        {                     
+            return (int)Math.Floor((decimal)(i - 1) /2);
         }
 
         /// <summary>

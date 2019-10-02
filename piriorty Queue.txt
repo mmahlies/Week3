@@ -14,7 +14,7 @@
     ///                         and also we cant get the right position to insert the element 
     ///         getmax => o(1) last element
     /// good implementation
-    ///     binary heap 
+    ///     binary heap 														     
     ///         max binary heap :
     ///             is binary tree which value of any node is at least the values of it's cheldren  
     ///			   ////////42////////
