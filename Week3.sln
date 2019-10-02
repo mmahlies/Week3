@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{06A4E0D6-225C-42B4-A5EB-3CB2EF118285}"
 EndProject
@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		HeapSort.xml = HeapSort.xml
 		piriorty Queue.txt = piriorty Queue.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JointSet-Naive", "JointSet-NAive\JointSet-Naive.csproj", "{8CF727C1-0F04-4981-B767-1D1231F9858D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "joinset_NaiveTest", "joinset_NaiveTest\joinset_NaiveTest.csproj", "{542B1DA7-7D52-4DB9-8EAF-8489390F96FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,26 +38,19 @@ Global
 		{DEFCDAE2-8AA6-43C1-B7D9-9C4B7FBA8A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEFCDAE2-8AA6-43C1-B7D9-9C4B7FBA8A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEFCDAE2-8AA6-43C1-B7D9-9C4B7FBA8A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF727C1-0F04-4981-B767-1D1231F9858D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF727C1-0F04-4981-B767-1D1231F9858D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF727C1-0F04-4981-B767-1D1231F9858D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF727C1-0F04-4981-B767-1D1231F9858D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542B1DA7-7D52-4DB9-8EAF-8489390F96FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542B1DA7-7D52-4DB9-8EAF-8489390F96FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542B1DA7-7D52-4DB9-8EAF-8489390F96FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542B1DA7-7D52-4DB9-8EAF-8489390F96FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0C933A5-5472-4FEB-B0D3-8B0C23A741F5}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://mohamedmahlies.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = PriorityQueue\\PriorityQueue.csproj
-		SccProjectName1 = PriorityQueue
-		SccLocalPath1 = PriorityQueue
-		SccProjectUniqueName2 = ConvertArrayIntoHeap\\ConvertArrayIntoHeap.csproj
-		SccProjectName2 = ConvertArrayIntoHeap
-		SccLocalPath2 = ConvertArrayIntoHeap
-		SccProjectUniqueName3 = ParallelProcessing\\ParallelProcessing.csproj
-		SccProjectName3 = ParallelProcessing
-		SccLocalPath3 = ParallelProcessing
 	EndGlobalSection
 EndGlobal

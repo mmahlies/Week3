@@ -30,6 +30,7 @@ namespace ConvertArrayIntoHeap
     class PiriortyQueue
     {
         int[] array;
+        // datastructure t save no of swapp operation
         public List<KeyValuePair<int, int>> swapOperations;
         int size;
         public PiriortyQueue(int[] array)
@@ -40,9 +41,12 @@ namespace ConvertArrayIntoHeap
             BuildArray();
         }
 
+        // build complete binary tree from array
         private void BuildArray()
         {
             int midNode = (array.Length - 1) / 2;
+            // sart from the mid of the tree beacause if u draw this tree u will find the mid 
+            // node is last parent in the tree so the last node we need to make it sticfied with it's childs
             for (int i = midNode; i >= 0; i--)
             {
                 SwiftDown(i);
